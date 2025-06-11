@@ -14,4 +14,7 @@ console.log(animal)
 let animal2 = "gato";
 console.log(animal2);
 animal2 == "gato"; // true, simplesmente pq é igual os 2 valores
-
+let num = 10.99
+num.parseInt(); // converte o valor para inteiro, ou seja, 10
+num = parseInt(num); // converte o valor para inteiro, ou seja, 10
+console.log(num);
