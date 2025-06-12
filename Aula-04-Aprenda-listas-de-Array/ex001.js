@@ -19,4 +19,6 @@ console.log(listaDeMaterias) // ['HTML', 'CSS', 'JavaScript', 'JQuery']
 console.log(listaDeMaterias.splice(1,1)) // Remove o último elemento da lista
 console.log(listaDeMaterias) // ['HTML', 'JavaScript', 'JQuery']
 
+console.log(listaDeMaterias.length ) // 3, o tamanho da lista após a remoção   
+
 
