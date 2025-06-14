@@ -30,7 +30,7 @@ function somarNumeros(num1, num2, num3) {
     num3 = Number(num3);
     var res = document.getElementById("resultado");
     let resultado = num1 + num2 + num3
-    return res.innerHTML = `E o Resultado de ${num1} + ${num2} + ${num3} é: <strong>${resultado}</strong>`;;
+    return res.innerHTML = `E o Resultado de ${num1} + ${num2} + ${num3} é...: <strong>${resultado}</strong>`;;
     
 }
 res.innerHTML = `E o Resultado de ${num1} + ${num2} + ${num3} é: <strong>${somarNumeros(Number(num1), Number(num2), Number(num3))}</strong>`;
